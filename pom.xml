@@ -144,7 +144,7 @@
         <webdriver.version>4.3.1</webdriver.version>
         <wiremock.version>2.27.2</wiremock.version>
         <xml-resolver.version>1.2</xml-resolver.version>
-        <xstream.version>1.4.5</xstream.version> <!-- do not update necessary for lesson -->
+        <xstream.version>1.4.19</xstream.version> <!-- do not update necessary for lesson -->
         <zxcvbn.version>1.5.2</zxcvbn.version>
     </properties>
 
@@ -287,7 +287,7 @@
                                     <goal>start</goal>
                                 </goals>
                                 <configuration>
-                                    <workingDir></workingDir>
+                                    <workingDir/>
                                     <arguments>
                                         <argument>java</argument>
                                         <argument>-jar</argument>
